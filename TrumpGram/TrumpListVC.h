@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TrumpPostDelegate.h"
 
-@interface ViewController : UIViewController
+
+@interface TrumpListVC : UIViewController<TrumpPostParseDelegate>
 
 
 @end

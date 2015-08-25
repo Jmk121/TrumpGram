@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		DA29C71A1B74E7C0004CF9B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA29C7191B74E7C0004CF9B9 /* main.m */; };
 		DA29C71D1B74E7C0004CF9B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA29C71C1B74E7C0004CF9B9 /* AppDelegate.m */; };
-		DA29C7201B74E7C0004CF9B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA29C71F1B74E7C0004CF9B9 /* ViewController.m */; };
+		DA29C7201B74E7C0004CF9B9 /* TrumpListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA29C71F1B74E7C0004CF9B9 /* TrumpListVC.m */; };
 		DA29C7231B74E7C0004CF9B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA29C7211B74E7C0004CF9B9 /* Main.storyboard */; };
 		DA29C7251B74E7C0004CF9B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA29C7241B74E7C0004CF9B9 /* Images.xcassets */; };
 		DA29C7281B74E7C0004CF9B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA29C7261B74E7C0004CF9B9 /* LaunchScreen.xib */; };
 		DA29C7341B74E7C0004CF9B9 /* TrumpGramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA29C7331B74E7C0004CF9B9 /* TrumpGramTests.m */; };
+		DA29C73F1B74E910004CF9B9 /* TrumpPost.m in Sources */ = {isa = PBXBuildFile; fileRef = DA29C73E1B74E910004CF9B9 /* TrumpPost.m */; };
+		DA29C7421B74EF82004CF9B9 /* TrumpPostDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA29C7411B74EF82004CF9B9 /* TrumpPostDelegate.m */; };
+		DAFAE7901B764C0800A81916 /* TrumpDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFAE78F1B764C0800A81916 /* TrumpDetailVC.m */; };
+		DAFAE7941B764F5600A81916 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFAE7921B764F5600A81916 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,22 @@
 		DA29C7191B74E7C0004CF9B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA29C71B1B74E7C0004CF9B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DA29C71C1B74E7C0004CF9B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DA29C71E1B74E7C0004CF9B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DA29C71F1B74E7C0004CF9B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA29C71E1B74E7C0004CF9B9 /* TrumpListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrumpListVC.h; sourceTree = "<group>"; };
+		DA29C71F1B74E7C0004CF9B9 /* TrumpListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrumpListVC.m; sourceTree = "<group>"; };
 		DA29C7221B74E7C0004CF9B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA29C7241B74E7C0004CF9B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DA29C7271B74E7C0004CF9B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DA29C72D1B74E7C0004CF9B9 /* TrumpGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumpGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA29C7321B74E7C0004CF9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA29C7331B74E7C0004CF9B9 /* TrumpGramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrumpGramTests.m; sourceTree = "<group>"; };
+		DA29C73D1B74E910004CF9B9 /* TrumpPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrumpPost.h; sourceTree = "<group>"; };
+		DA29C73E1B74E910004CF9B9 /* TrumpPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrumpPost.m; sourceTree = "<group>"; };
+		DA29C7401B74EF82004CF9B9 /* TrumpPostDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrumpPostDelegate.h; sourceTree = "<group>"; };
+		DA29C7411B74EF82004CF9B9 /* TrumpPostDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrumpPostDelegate.m; sourceTree = "<group>"; };
+		DAFAE78E1B764C0800A81916 /* TrumpDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrumpDetailVC.h; sourceTree = "<group>"; };
+		DAFAE78F1B764C0800A81916 /* TrumpDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrumpDetailVC.m; sourceTree = "<group>"; };
+		DAFAE7921B764F5600A81916 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DAFAE7931B764F5600A81916 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +95,10 @@
 			children = (
 				DA29C71B1B74E7C0004CF9B9 /* AppDelegate.h */,
 				DA29C71C1B74E7C0004CF9B9 /* AppDelegate.m */,
-				DA29C71E1B74E7C0004CF9B9 /* ViewController.h */,
-				DA29C71F1B74E7C0004CF9B9 /* ViewController.m */,
+				DAFAE7921B764F5600A81916 /* MBProgressHUD.m */,
+				DAFAE7931B764F5600A81916 /* MBProgressHUD.h */,
+				DA29C7431B74EF8A004CF9B9 /* TrumpPost */,
+				DAFAE7911B764CA900A81916 /* VC */,
 				DA29C7211B74E7C0004CF9B9 /* Main.storyboard */,
 				DA29C7241B74E7C0004CF9B9 /* Images.xcassets */,
 				DA29C7261B74E7C0004CF9B9 /* LaunchScreen.xib */,
@@ -117,6 +131,28 @@
 				DA29C7321B74E7C0004CF9B9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA29C7431B74EF8A004CF9B9 /* TrumpPost */ = {
+			isa = PBXGroup;
+			children = (
+				DA29C73D1B74E910004CF9B9 /* TrumpPost.h */,
+				DA29C73E1B74E910004CF9B9 /* TrumpPost.m */,
+				DA29C7401B74EF82004CF9B9 /* TrumpPostDelegate.h */,
+				DA29C7411B74EF82004CF9B9 /* TrumpPostDelegate.m */,
+			);
+			name = TrumpPost;
+			sourceTree = "<group>";
+		};
+		DAFAE7911B764CA900A81916 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				DA29C71E1B74E7C0004CF9B9 /* TrumpListVC.h */,
+				DA29C71F1B74E7C0004CF9B9 /* TrumpListVC.m */,
+				DAFAE78E1B764C0800A81916 /* TrumpDetailVC.h */,
+				DAFAE78F1B764C0800A81916 /* TrumpDetailVC.m */,
+			);
+			name = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA29C7201B74E7C0004CF9B9 /* ViewController.m in Sources */,
+				DA29C73F1B74E910004CF9B9 /* TrumpPost.m in Sources */,
+				DA29C7201B74E7C0004CF9B9 /* TrumpListVC.m in Sources */,
+				DAFAE7901B764C0800A81916 /* TrumpDetailVC.m in Sources */,
 				DA29C71D1B74E7C0004CF9B9 /* AppDelegate.m in Sources */,
 				DA29C71A1B74E7C0004CF9B9 /* main.m in Sources */,
+				DA29C7421B74EF82004CF9B9 /* TrumpPostDelegate.m in Sources */,
+				DAFAE7941B764F5600A81916 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +456,7 @@
 				DA29C7391B74E7C0004CF9B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA29C73A1B74E7C0004CF9B9 /* Build configuration list for PBXNativeTarget "TrumpGramTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +465,7 @@
 				DA29C73C1B74E7C0004CF9B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
